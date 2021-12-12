@@ -10,7 +10,7 @@ write_files:
     /dev/vdc      /mnt/disk2    ext4    auto      0 0
     /dev/vdd      /mnt/disk3    ext4    auto      0 0
     /dev/nvme0n1  /mnt/nvme1    ext4    auto      0 0
-    /dev/nvme1n1  /mnt/nvme1    ext4    auto      0 0
+    /dev/nvme1n1  /mnt/nvme2    ext4    auto      0 0
   owner: root
   path: /etc/fstab
   permissions: '0644'
